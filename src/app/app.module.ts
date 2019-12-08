@@ -25,7 +25,9 @@ import { ProductFormComponent } from './admin/product-form/product-form.componen
 import { CategoryService } from './category.service';
 import { FormsModule } from '@angular/forms';
 import { ProductService } from './product.service';
-import { CustomFormsModule } from 'ng2-validation'
+import { CustomFormsModule } from 'ng2-validation';
+import { ProductFilterComponent } from './products/product-filter/product-filter.component';
+import { ProductCardComponent } from './product-card/product-card.component'
 
 
 @NgModule({
@@ -41,7 +43,9 @@ import { CustomFormsModule } from 'ng2-validation'
     AdminProductsComponent,
     AdminOrdersComponent,
     LoginComponent,
-    ProductFormComponent
+    ProductFormComponent,
+    ProductFilterComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,
